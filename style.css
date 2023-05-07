@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(sarı-turuncu-pembeBackground.jpg);
+    z-index: -1;
+}
+
+                     /*NAVBAR*/
+.navparent {
+   
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.logoİmage {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+
+
+
+}
+
+.menu {
+    align-items: center;
+    padding: 1.6rem 0;
+    margin-right: 5rem;
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 0.4rem;
+
+
+
+}
+
+.menu li a {
+    color: #F26849;
+    text-decoration: none;
+    margin-left: 3rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+.menu li a:hover{
+    color: rgb(15, 15, 15);
+}
+
+.miniList {
+    display: none;
+}
+
+                           /*HEADER*/
+header {
+    text-align: center;
+    color: rgb(231, 192, 192);
+    height: 40rem;
+
+
+}
+.headerContent{
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: #F26849;
+    font-family: 'Caveat', cursive;
+    padding: 12rem;
+    padding-bottom: 0;
+    font-size: 8rem;
+                   /*SECTİON*/
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p { color: #F26849;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.boxParent1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    margin-left: 2rem;
+    width: 45%;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+.box1 p{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2rem 2rem;
+    color: black;
+    transition: .34s;
+}
+.box1:hover{
+    transform:translateY(-20px);
+}
+.box2{
+    margin-right: 2rem;
+    width: 45%;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: .34s;
+
+}
+.box2:hover{
+    transform: translateY(-20px);
+}
+ li { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+    
+   
+    text-align: justify;
+    margin: 2rem 2rem;
+
+}
+                     /*FOOTER*/
+footer{
+    margin-bottom: 3rem;
+}
+.footerHead{
+    margin-top: 3rem;
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.footerİcons{
+    margin-top: 1.5rem;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBİLE*/
+
+@media screen and (max-width:600px) {
+    .menu {
+        display: none;
+    }
+
+    .miniList {
+        display: block;
+        background-color: #F2916D;
+        border-radius: 100%;
+        margin-top: 1rem;
+    }
+    .navparent {
+         justify-content: space-between;
+    }
+    .headerContent{
+        align-items: center;
+        display:flex;
+    }
+        
+    .headerBody{
+        align-items: center;
+        text-align: center;
+       
+        width: 100%;
+    }
+    h1{
+        padding:0;
+    }
+    .boxParent1{
+        display: block;
+    }
+    .box1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box2{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+        
+
+    
+  
+
+}
